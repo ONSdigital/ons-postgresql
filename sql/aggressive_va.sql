@@ -43,3 +43,9 @@ ALTER TABLE edc_survey SET (
   autovacuum_vacuum_scale_factor = 0.1,
   autovacuum_analyze_threshold = 10,
   autovacuum_analyze_scale_factor = 0.05);
+  
+ALTER TABLE edc_respondent_unit_asso SET (
+  autovacuum_vacuum_threshold = 25,
+  autovacuum_vacuum_scale_factor = 0.1,
+  autovacuum_analyze_threshold = 10,
+  autovacuum_analyze_scale_factor = 0.05);
